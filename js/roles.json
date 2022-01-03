@@ -1,0 +1,275 @@
+[
+  {
+    "Cadre": "Sport",
+    "Departement": "",
+    "Nombre": "",
+    "Nom": "Vice-président activités",
+    "Description": "Gestion de la communication inter-commission\ndéveloppement des activités : nouvelles / existantes"
+  },
+  {
+    "Cadre": "Sport",
+    "Departement": "",
+    "Nombre": "",
+    "Nom": "Vice-président formation",
+    "Description": "Développement des formations au sein du club \nrelais pour les formations externes au club"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Accueil",
+    "Nombre": 2,
+    "Nom": "Responsable Accueil",
+    "Description": "- organise le planning de l'accueil\n- met à jour la documentation de l'accueil\n- prend soin de la transmission des informations au groupe de l'accueil\n- informe les visiteurs\n- redirige les visiteurs vers le bon interlocuteur"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Accueil",
+    "Nombre": 4,
+    "Nom": "Bénévoles accueil",
+    "Description": "- informe les visiteurs\n- redirige les visiteurs vers le bon interlocuteur"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Accueil",
+    "Nombre": "",
+    "Nom": "Responsable inscriptions adhérents",
+    "Description": "- vérifie les certificats médicaux\n- imprime les cartes d'adhérents"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Informatique",
+    "Nombre": 2,
+    "Nom": "Webdesigner UI / UX",
+    "Description": "Création de designs et d'interfaces ergonomiques\nCréation de mockups\nDéfinition d'un styleguide\nMise en place de tests\nAméliorer l'utilisabilité de nos outils (sites / appli internes)"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Informatique",
+    "Nombre": 3,
+    "Nom": "Développeur frontend Javascript",
+    "Description": "Dévelopement d'applications utilisées par le Club.\nActuellement, nous avons le site en php/mysql, une appli de gestion de la bibliothèque avec VueJS, mais nous sommes ouvert à toute suggestion.\nVoici les projets que nous souhaitons déveloper:\n- gestion des notes de frais\n- paiement en ligne\n- gestion du matériel / réservation resources\n- bibliothèque"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Informatique",
+    "Nombre": 3,
+    "Nom": "Développeur backend (nodejs / php)",
+    "Description": "Dévelopement d'API sécurisée et dev-friendly.\nActuellement en NodeJS, mais on est ouvert à toutes les suggestions.\nPour le moment, l'architecture est simple mais dockérisé."
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Informatique",
+    "Nombre": 2,
+    "Nom": "product owner",
+    "Description": "Le product owner aura pour rôle de:\n- identifier, d'évaluer et définir les besoins\n- prioritiser ces besoins\n- valider le resultat"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Informatique",
+    "Nombre": 2,
+    "Nom": "Spécialiste documentation / support",
+    "Description": "Rédaction d'articles d'aide des outils numériques\nRéalisation de video / screencast d'aide\nSupport pour les utilisateurs\nCréation d'une FAQ pour les utilisateurs"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Informatique",
+    "Nombre": 2,
+    "Nom": "Assistance numérique",
+    "Description": "Aider les bénévoles à utiliser nos outils numériques (par email / visio)"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Informatique",
+    "Nombre": 1,
+    "Nom": "Data analyste",
+    "Description": "Définition de KPIs\nTrouver les données et automatiser son extraction\nProduction d'un dashboard pour le Comité de Direction"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Informatique",
+    "Nombre": 2,
+    "Nom": "Responsable matériel informatique",
+    "Description": "Réparation et assistance matériel informatique\nAchat de matériel\nInstallation et configuration du matériel\nResponsable réseau informatique du Club"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Communication",
+    "Nombre": 2,
+    "Nom": "Responsable communication",
+    "Description": "Définition d'une stratégie de communication"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Communication",
+    "Nombre": 2,
+    "Nom": "Community manager",
+    "Description": "Animation de nos réseaux sociaux (facebook, instagram)\nFéderer la communauté du Club en ligne\nEncourager et susciter les conversations\nMettre en place des evenement / concours\nDiffuser et faire connaitre la mission du Club sur les réseaux sociaux"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Communication",
+    "Nombre": 1,
+    "Nom": "Spécialiste SEO",
+    "Description": "Faire un état des lieux du référencement actuel\nAméliorer le réferencement naturel\nMise en place de KPIs pour suivre les améliorations\nCollaborer avec le responsable ligne éditoriale\nProposer des changements techniques"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Communication",
+    "Nombre": 1,
+    "Nom": "Responsable ligne éditoriale",
+    "Description": "Mise en place d'une ligne éditoriale\nCommunication de cette ligne éditoriale\nMise en place de garde-fou sur le site pour respecter cette ligne éditoriale\nCollaboration avec le spécialiste SEO"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Communication",
+    "Nombre": 2,
+    "Nom": "Graphiste web/print",
+    "Description": ""
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Communication",
+    "Nombre": 2,
+    "Nom": "Responsable evenements",
+    "Description": ""
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Communication",
+    "Nombre": "",
+    "Nom": "Videastes / editeur video",
+    "Description": "Réalise des videos de communication pour le Club.\nAssiste les commissions qui veulent communiquer par la video. \nFilme les evenements organisés par le Club\nSupporte le diffusion en direct de certains évenements"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Formations",
+    "Nombre": 2,
+    "Nom": "Responsable organisation PSC1",
+    "Description": ""
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Formations",
+    "Nombre": 2,
+    "Nom": "Responsable UFCA",
+    "Description": ""
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Local et matériel",
+    "Nombre": 2,
+    "Nom": "Responsable buvette au local",
+    "Description": "- communication sur les évenements buvette au local\n- en charge de trouver les bénévoles pour gérer la buvettes lors des evenements réguliers"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Local et matériel",
+    "Nombre": 1,
+    "Nom": "responsable EPI",
+    "Description": "- nécessite une formation EPI (prise en charge par le Club) http://afforpah-formation.org/controle.et.gestion.des.epi-61200-2.php"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Local et matériel",
+    "Nombre": 2,
+    "Nom": "co-responsable materiel",
+    "Description": ""
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Local et matériel",
+    "Nombre": 1,
+    "Nom": "Responsable mini bus",
+    "Description": ""
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Local et matériel",
+    "Nombre": 2,
+    "Nom": "Responsables bibliotheque",
+    "Description": "- responsable du bon fonctionnement des emprunts\n- responsable de la bonne utilisation de la bibliotheque\n- mise en place d'outil pour faciliter et péreniser la bibliotheque"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Local et matériel",
+    "Nombre": 2,
+    "Nom": "Responsable local Villeurbanne",
+    "Description": "- responsable du bon état des locaux\n- responsable du partage de l'utilisation des locaux"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Divers",
+    "Nombre": 2,
+    "Nom": "Responsable benevoles",
+    "Description": "Transformer les adhérents en bénévole\nMotiver les bénévoles à continuer a nous aider\nTrouver comment valoriser le bénévolat\nMettre en place un canal de communication pour les bénévoles"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Divers",
+    "Nombre": 1,
+    "Nom": "Référent écologie",
+    "Description": "dévelopement durable / mobilité douce / biodiversité / relations avec les associations\n- présence lors des evenements environement durables\n- veille environnementale"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Divers",
+    "Nombre": 1,
+    "Nom": "Référent inclusion (handicap / minorité / etc...)",
+    "Description": "Faire du Club un endroit ou tout le monde se sent bienvenu et inclu\n- veille sur le thème de l'inclusion"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Divers",
+    "Nombre": 2,
+    "Nom": "Responsable juridique (RGPD, légal, etc...)",
+    "Description": "- Veille juridique\n- conseiller pour le Club"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "",
+    "Nombre": "",
+    "Nom": "Délégué à la Protection des Données (DPO)",
+    "Description": "- responsable RGPD\n- Mise en place et animation de la veille juridique “protection des données"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Divers",
+    "Nombre": 2,
+    "Nom": "Responsables partenariats privées",
+    "Description": "Assurer une veille afin d'identifier tous les partenaires potentiels\nCibler, identifier et prospecter les partenaires potentiels\nAnimer un réseau de partenaires\nNégocier et signer des accords de partenariats\nDéfinir la stratégie, le contenu et les axes des programmes de partenariats\nAnalyser les résultats pour évaluer les performances et la rentabilité de chaque accord\n\u0001Recruter et animer une équipe de bénévoles dédiés au suivi des partenaires"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Divers",
+    "Nombre": 5,
+    "Nom": "Bénévoles partenariats",
+    "Description": ""
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Divers",
+    "Nombre": 1,
+    "Nom": "Réferent subventions publiques",
+    "Description": "- veille sur les subventions et les aides publiques\n- interlocuteur unique pour le Club pour les subventions et les aides"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Divers",
+    "Nombre": 1,
+    "Nom": "Référent jeunesse",
+    "Description": ""
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Divers",
+    "Nombre": 2,
+    "Nom": "Psychologue",
+    "Description": "- soutien psychologique\n- veille\n- référent pour ce domaine\n- mise en relation avec des organismes spécialisés"
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Divers",
+    "Nombre": 2,
+    "Nom": "Réferent inter-club",
+    "Description": "- en charge de la communication avec les autres Clubs (échange de bonnes pratiques, mise en place de projet en commun, etc...)"
+  }
+]
