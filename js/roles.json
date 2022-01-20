@@ -14,6 +14,13 @@
     "Description": "Développement des formations au sein du club \nrelais pour les formations externes au club"
   },
   {
+    "Cadre": "Sport",
+    "Departement": "",
+    "Nombre": "",
+    "Nom": "Animateurs formation",
+    "Description": "Animation de formations diverses (secourisme, juridique, géologie, outils numériques, etc...)"
+  },
+  {
     "Cadre": "Vie du club",
     "Departement": "Accueil",
     "Nombre": 2,
@@ -123,14 +130,14 @@
     "Departement": "Communication",
     "Nombre": 2,
     "Nom": "Graphiste web/print",
-    "Description": ""
+    "Description": "- création des supports de communication pour le Club et les évenements du Club\n- réalisation de visuels pour nos comptes sur les réseaux sociaux"
   },
   {
     "Cadre": "Vie du club",
     "Departement": "Communication",
     "Nombre": 2,
     "Nom": "Responsable evenements",
-    "Description": ""
+    "Description": "- organisation d'évenements\n- coordination des équipes\n- gestion du retroplanning et du budget"
   },
   {
     "Cadre": "Vie du club",
@@ -197,6 +204,13 @@
   },
   {
     "Cadre": "Vie du club",
+    "Departement": "Local et matériel",
+    "Nombre": 2,
+    "Nom": "Architecte d'intérieur",
+    "Description": "Pour nous aider à revoir l'organisation des locaux"
+  },
+  {
+    "Cadre": "Vie du club",
     "Departement": "Divers",
     "Nombre": 2,
     "Nom": "Responsable benevoles",
@@ -242,7 +256,7 @@
     "Departement": "Divers",
     "Nombre": 5,
     "Nom": "Bénévoles partenariats",
-    "Description": ""
+    "Description": "En accord avec le responsable des partenariats, contact avec les potentiels partenaires"
   },
   {
     "Cadre": "Vie du club",
@@ -263,7 +277,7 @@
     "Departement": "Divers",
     "Nombre": 2,
     "Nom": "Psychologue",
-    "Description": "- soutien psychologique\n- veille\n- référent pour ce domaine\n- mise en relation avec des organismes spécialisés"
+    "Description": "- soutien psychologique après accident\n- veille\n- référent pour ce domaine\n- mise en relation avec des organismes spécialisés"
   },
   {
     "Cadre": "Vie du club",

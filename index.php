@@ -32,7 +32,7 @@
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#benevolat">Bénévolat</a></li>
                     <li class="nav-item"><a class="nav-link" href="#roles">Les rôles</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Nous contacter</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mailto:benevolat@clubalpinlyon.fr">Nous contacter</a></li>
                     <li class="nav-item"><a class="nav-link" href="https://www.clubalpinlyon.fr">Retour au site</a></li>
                 </ul>
             </div>
@@ -43,11 +43,11 @@
         <div class="container">
             <div class="masthead-subheading">Les bénévoles sont au cœur de l'action.</div>
             <div class="masthead-heading text-uppercase">C'est TON Club !</div>
-            <a class="btn btn-primary btn-xl text-uppercase" href="#services">En savoir plus</a>
+            <a class="btn btn-primary btn-xl text-uppercase" href="#benevolat">En savoir plus</a>
         </div>
     </header>
     <!-- Devenir bénévole-->
-    <section class="fdb-block">
+    <section class="fdb-block" id="benevolat">
         <div class="container">
           <div class="row justify-content-center pb-5">
             <div class="col-12 text-center">
@@ -92,10 +92,11 @@
               <img alt="image" class="img-fluid" src="./assets/img/awesome.svg">
             </div>
             <div class="col-12 col-md-5">
-              <h2><strong>Des privilèges</strong></h2>
-              <p class="lead">Obtenir le statut de bénévole actif, c'est avoir accès à différents avantages tels que:<br />
-                  - réduction sur la part fédéral de l'abonnement<br />
-                  - réduction sur l'assurance annuelle<br />
+              <h2><strong>Des avantages</strong></h2>
+              <p class="lead">Pour les bénévoles dont l'engagement est important et a été approuvé par le responsable, il est possible d'obtenir le statut de bénévole actif. <br />
+                Etre bénévole actif, c'est avoir accès à différents avantages tels que:<br />
+                  - prise en charge la part fédéral de l'abonnement<br />
+                  - prise en charge de l'assurance renforcée<br />
                   - réduction supplémentaire chez certains partenaires<br />
                   - reconnaissance avec la carte de bénévoles<br />
                   - invitation à des évenements dédiés aux bénévoles
@@ -107,7 +108,7 @@
         </div>
       </section>
     <!-- Les rôles-->
-    <section class="page-section bg-light" id="team">
+    <section class="page-section bg-light" id="roles">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Les rôles</h2>
@@ -118,7 +119,7 @@
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-                            <th scope="col">Postuler</th>
+                            <!-- <th scope="col">Postuler</th> -->
                             <th scope="col">Nom</th>
                             <th scope="col">Département</th>
                             <th scope="col">Description</th>
@@ -130,10 +131,10 @@
                             $obj = json_decode($json, true);
                             foreach($obj as $key => $value): ?>
                                 <tr>
-                                    <td><input type="checkbox" /></td>
+                                    <!-- <td><input type="checkbox" class="form-check-input" /></td> -->
                                     <td><?php echo $value['Nom']; ?></td>
                                     <td><?php echo $value['Departement']; ?></td>
-                                    <td><?php echo $value['Description']; ?></td>
+                                    <td><?php echo nl2br($value['Description']); ?></td>
                                 </tr>
                             <?php endforeach; ?>
                     </tbody>
@@ -142,65 +143,9 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
                     <p>
-                    <?php if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST["action"])): ?>
-                        <script>
-                            alert('Votre message a été envoyé, nous reviendrons vers vous très rapidement.');
-                        </script>
-                        <?php else: ?>
-                            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-                                <input type="hidden" value="email" name="action" />
-                                <div class="row align-items-stretch mb-5">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <!-- Name input-->
-                                            <input class="form-control" id="name" type="text" placeholder="Votre nom et prénom *" />
-                                            <div class="invalid-feedback">A name is required.</div>
-                                        </div>
-                                        <div class="form-group">
-                                            <!-- Email address input-->
-                                            <input class="form-control" id="email" type="email" placeholder="Votre email *"
-                                                data-sb-validations="required,email" />
-                                            <div class="invalid-feedback">An email is required.</div>
-                                            <div class="invalid-feedback">Email is not valid.</div>
-                                        </div>
-                                        <div class="form-group mb-md-0">
-                                            <!-- Phone number input-->
-                                            <input class="form-control" id="phone" type="tel" placeholder="Votre numéro de téléphone" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group form-group-textarea mb-md-0">
-                                            <!-- Message input-->
-                                            <textarea class="form-control" id="message" placeholder="Un petit message ?"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Submit success message-->
-                                <!---->
-                                <!-- This is what your users will see when the form-->
-                                <!-- has successfully submitted-->
-                                <div class="d-none" id="submitSuccessMessage">
-                                    <div class="text-center text-white mb-3">
-                                        <div class="fw-bolder">Form submission successful!</div>
-                                        To activate this form, sign up at
-                                        <br />
-                                        <a
-                                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                    </div>
-                                </div>
-                                <!-- Submit error message-->
-                                <!---->
-                                <!-- This is what your users will see when there is-->
-                                <!-- an error submitting the form-->
-                                <div class="d-none" id="submitErrorMessage">
-                                    <div class="text-center text-danger mb-3">Error sending message!</div>
-                                </div>
-                                <!-- Submit Button-->
-                                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled"
-                                        id="submitButton" type="submit">Send Message</button></div>
-                            </form>
-                        <?php endif; ?><br />
-                        <a href="mailto:benevolat@clubalpinlyon.fr">benevolat@clubalpinlyon.fr</a>
+                        Merci de nous contacter par mail en nous précisant pour quel(s) rôle(s) vous pourriez vous engager. 🥳<br />
+                        Vous pouvez aussi simplement nous contacter pour avoir plus d'infos. ℹ️
+                        <br /><a class="cta-link" href="mailto:benevolat@clubalpinlyon.fr">benevolat@clubalpinlyon.fr</a>
                     </p>
                 </div>
             </div>
@@ -215,7 +160,7 @@
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-start">Copyright &copy; Club Alpin Francais de Lyon-Villeurbanne 2022</div>
+                <div class="col-lg-4 text-lg-start"><a href="https://undraw.co/" target="_blank">Illustrations par Katerina Limpitsouni</a></div>
                 <div class="col-lg-4 my-3 my-lg-0">
                     <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/clubalpinlyonvilleurbanne/"><i class="fab fa-instagram"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/Club-Alpin-Fran%C3%A7ais-de-Lyon-Villeurbanne-118851941629324/"><i class="fab fa-facebook-f"></i></a>
