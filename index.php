@@ -81,7 +81,7 @@
             </div>
             <div class="col-12 col-md-5 m-md-auto">
               <h2><strong>Apprendre et partager des compétences</strong></h2>
-              <p class="lead">Participer aux projets du Club nécessite de mettre en pratique vos compétences acquises dans un cadre profesionnel, étudiant ou de loisir et d'en apprendre des nouvelles. Ces compétences peuvent être à leur tour utile pour votre vie professionnelle.<br/>
+              <p class="lead">Participer aux projets du Club nécessite de mettre en pratique vos compétences acquises dans un cadre professionnel, étudiant ou de loisir et d'en apprendre des nouvelles. Ces compétences peuvent être à leur tour utile pour votre vie professionnelle.<br/>
                 Les projets du Club sont divers et variés. Cela va de l'accueil des nouveaux adhérents au développement d'outils informatiques en passant par la gestion et le suivi du matériel. Et ne pensez pas qu'il faille forcement avoir de l'expérience, beaucoup de rôles sont ouverts aux débutants. 
               </p>
             </div>
@@ -95,7 +95,7 @@
               <h2><strong>Des avantages</strong></h2>
               <p class="lead">Pour les bénévoles dont l'engagement est important et a été approuvé par le responsable, il est possible d'obtenir le statut de bénévole actif. <br />
                 Etre bénévole actif, c'est avoir accès à différents avantages tels que:<br />
-                  - prise en charge la part fédéral de l'abonnement<br />
+                  - prise en charge la part fédérale de l'abonnement<br />
                   - prise en charge de l'assurance renforcée<br />
                   - réduction supplémentaire chez certains partenaires<br />
                   - reconnaissance avec la carte de bénévoles<br />
