@@ -99,7 +99,8 @@
                   - prise en charge de l'assurance renforcée<br />
                   - réduction supplémentaire chez certains partenaires<br />
                   - reconnaissance avec la carte de bénévoles<br />
-                  - invitation à des évenements dédiés aux bénévoles
+                  - invitation à des évenements dédiés aux bénévoles<br />
+                  - obtention de droits de formation supplémentaires avec le <a href="https://www.associations.gouv.fr/le-compte-d-engagement-citoyen-cec.html" target=_blank>dispositif gouvernemental "Compte d'Engagement Citoyen"</a>
               </p>
             </div>
           </div>
