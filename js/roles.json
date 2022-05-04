@@ -178,6 +178,13 @@
     "Cadre": "Vie du club",
     "Departement": "Local et matériel",
     "Nombre": 2,
+    "Nom": "Architecte d'intérieur",
+    "Description": "Après ces 2 années de restrictions sociales, nous souhaitons faire revivre notre local et le rendre plus accueillant. Nous avons quelques idées pour le réagencer, mais si des adhérents plus compétents veulent nous aider, cela serait idéal. Recherchons idée notamment pour l’installation d’un bar."
+  },
+  {
+    "Cadre": "Vie du club",
+    "Departement": "Local et matériel",
+    "Nombre": 2,
     "Nom": "Responsable buvette au local",
     "Description": "barman / barwoman pour les soirées au Club\n- définit les besoins de la buvette\n- communication sur les évenements buvette au local\n- en charge de trouver les bénévoles pour gérer la buvettes lors des évènements réguliers"
   },
@@ -201,13 +208,6 @@
     "Nombre": 1,
     "Nom": "Responsable mini bus",
     "Description": "Le Club est maintenant en possession d'un super Mini-bus, pour réduire notre empreinte carbone et faciliter les sorties pour les jeunes. Nous cherchons quelqu'un qui pourrait nous aider à gérer le mini-bus: faire un checkup de temps en temps (propreté, révisions, etc...) et organiser la gestion avec les utilisateurs. Nous avons un outil de réservation en ligne."
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Local et matériel",
-    "Nombre": 2,
-    "Nom": "Architecte d'intérieur",
-    "Description": "Après ces 2 années de restrictions sociales, nous souhaitons faire revivre notre local et le rendre plus accueillant. Nous avons quelques idées pour le réagencer, mais si des adhérents plus compétents veulent nous aider, cela serait idéal. Recherchons idée notamment pour l’installation d’un bar."
   },
   {
     "Cadre": "Vie du club",
