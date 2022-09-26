@@ -1,15 +1,16 @@
 {
-  "name": "benevolat-caflyon",
-  "version": "1.0.0",
-  "description": "> Landing page contenant la liste des rôles que le Club recherche et un formulaire (php) pour envoyer un message d'intéret.",
+  "name": "next-netlify-starter",
+  "version": "0.5.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "node deploy"
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Club-Alpin-Lyon-Villeurbanne/benevolat.git"
-  },
-  "author": "Nicolas Ritouet <nicolas@ritouet.com>",
-  "license": "UNLICENSED"
+  "dependencies": {
+    "cypress": "^10.0.3",
+    "next": "^12.1.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
 }
