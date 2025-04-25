@@ -179,11 +179,7 @@ export default function Home() {
             <div className="row">
               <div className="col-lg-8 mx-auto text-center">
                 <p>
-                  Merci de nous contacter par mail en nous précisant pour
-                  quel(s) rôle(s) vous pourriez vous engager. 🥳
-                  <br />
-                  Vous pouvez aussi simplement nous contacter pour avoir plus
-                  d&apos;infos. ℹ️
+                  Vous avez une envie et une compétence qui n'est pas dans cette liste ? Nous avons hâte de la découvrir !
                   <br />
                   <a
                     className="cta-link"
@@ -191,15 +187,6 @@ export default function Home() {
                   >
                     benevolat@clubalpinlyon.fr
                   </a>
-                </p>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-8 mx-auto text-center">
-                <p className="large text-muted">
-                  La majorité des rôles sont accessibles aux débutants,
-                  n&apos;hésitez pas à nous contacter pour en savoir plus sur un
-                  rôle en particulier.
                 </p>
               </div>
             </div>

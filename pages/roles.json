@@ -1,324 +1,82 @@
 [
   {
-    "Cadre": "Vie du club",
-    "Departement": "Accueil",
-    "Nombre": 2,
-    "Nom": "Responsable Accueil",
-    "Description": "- organise le planning de l'accueil\n- met à jour la documentation de l'accueil\n- prend soin de la transmission des informations au groupe de l'accueil\n- informe les visiteurs\n- redirige les visiteurs vers le bon interlocuteur"
+    "Departement": "Local",
+    "Nom": "💁 Bénévole d'accueil",
+    "Description": "Accueillir les gens aux côtés des bénévoles actuels. Accueil, bibliothèque, permanences, organisation d'évènements, aménagements... des actions en présentiel mais aussi à distance pour rendre le local de notre club vivant et accueillant. Répondre aux mails reçus à l'accueil. Aiguiller certaines demandes concernant la demande de formation et l'intégration dans les sorties. Assurer des permanences le mardi et le jeudi. Pour en savoir plus : accueil@clubalpinlyon.fr"
   },
   {
-    "Cadre": "Vie du club",
-    "Departement": "Accueil",
-    "Nombre": 4,
-    "Nom": "Bénévoles accueil",
-    "Description": "- informe les visiteurs\n- redirige les visiteurs vers le bon interlocuteur\n- répond aux demandes par email"
+    "Departement": "Numérique",
+    "Nom": "🧑‍💻 Développeur frontend Javascript",
+    "Description": "Divers sujets informatiques en cours, actuellement le site est développé en PHP/MySQL. Vous pouvez contribuer à l'amélioration et la maintenance de notre site, former les utilisateurs, recueillir leurs besoins. Pour en savoir plus : numerique@clubalpinlyon.fr"
   },
   {
-    "Cadre": "Vie du club",
-    "Departement": "Accueil",
-    "Nombre": "",
-    "Nom": "Responsable inscriptions adhérents",
-    "Description": "- vérifie les certificats médicaux\n- imprime les cartes d'adhérents"
+    "Departement": "Numérique",
+    "Nom": "🧑‍💻 Développeur backend (Node.js / PHP)",
+    "Description": "Développement d'API sécurisée et dev-friendly. Actuellement en Node.js, mais nous sommes ouverts à toutes les suggestions. Pour le moment, l'architecture est simple mais dockerisée."
   },
   {
-    "Cadre": "Vie du club",
-    "Departement": "Informatique",
-    "Nombre": 2,
-    "Nom": "Webdesigner UI / UX",
-    "Description": "Création de designs et d'interfaces ergonomiques\nCréation de mockups\nDéfinition d'un styleguide\nMise en place de tests\nAméliorer l'utilisabilité de nos outils (sites / appli internes)"
+    "Departement": "Numérique",
+    "Nom": "📈 Data analyste",
+    "Description": "Définition de KPIs, trouver les données et automatiser son extraction. Production d'un dashboard pour le Comité de Direction."
   },
   {
-    "Cadre": "Vie du club",
-    "Departement": "Informatique",
-    "Nombre": 3,
-    "Nom": "Développeur frontend Javascript",
-    "Description": "Développement d'applications utilisées par le Club.\nActuellement, nous avons le site en php/mysql, une appli de gestion de la bibliothèque avec VueJS, mais nous sommes ouverts à toute suggestion.\nVoici les projets que nous souhaitons développer:\n- gestion des notes de frais\n- paiement en ligne\n- gestion du matériel / réservation resources\n- bibliothèque"
+    "Departement": "Numérique",
+    "Nom": "🧑‍🏫 Assistance numérique",
+    "Description": "Aider les bénévoles d'encadrement à utiliser les outils du club."
   },
   {
-    "Cadre": "Vie du club",
-    "Departement": "Informatique",
-    "Nombre": 3,
-    "Nom": "Développeur backend (nodejs / php)",
-    "Description": "Développement d'API sécurisée et dev-friendly.\nActuellement en NodeJS, mais on est ouvert à toutes les suggestions.\nPour le moment, l'architecture est simple mais dockérisé."
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Informatique",
-    "Nombre": 2,
-    "Nom": "product owner",
-    "Description": "Le product owner aura pour rôle de:\n- identifier, d'évaluer et définir les besoins\n- prioriser ces besoins\n- valider le resultat"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Informatique",
-    "Nombre": 2,
-    "Nom": "Spécialiste documentation / support",
-    "Description": "Rédaction d'articles d'aide des outils numériques\nRéalisation de video / screencast d'aide\nSupport pour les utilisateurs\nCréation d'une FAQ pour les utilisateurs"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Informatique",
-    "Nombre": 2,
-    "Nom": "Assistance numérique",
-    "Description": "Aider les bénévoles à utiliser nos outils numériques (par email / visio)"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Informatique",
-    "Nombre": 1,
-    "Nom": "Data analyste",
-    "Description": "Définition de KPIs\nTrouver les données et automatiser son extraction\nProduction d'un dashboard pour le Comité de Direction"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Informatique",
-    "Nombre": 2,
-    "Nom": "Responsable matériel informatique",
-    "Description": "Réparation et assistance matériel informatique\nAchat de matériel\nInstallation et configuration du matériel\nResponsable réseau informatique du Club"
-  },
-  {
-    "Cadre": "Vie du club",
     "Departement": "Communication",
-    "Nombre": 2,
-    "Nom": "Responsable communication",
-    "Description": "Définition d'une stratégie de communication"
+    "Nom": "✉️ Newsletter",
+    "Description": "Contribuer à la newsletter interne avec d'autres personnes. Newsletter, chaîne YouTube, réseaux sociaux, Revue Alpine... partagez vos idées et votre créativité pour la production et la diffusion de contenu sur tous supports."
   },
   {
-    "Cadre": "Vie du club",
     "Departement": "Communication",
-    "Nombre": 2,
-    "Nom": "Community manager",
-    "Description": "Animation de nos réseaux sociaux (facebook, instagram)\nFédérer la communauté du Club en ligne\nEncourager et susciter les conversations\nMettre en place des évènements / concours\nDiffuser et faire connaitre la mission du Club sur les réseaux sociaux"
+    "Nom": "📽️ Vidéaste / éditeur vidéo",
+    "Description": "Contribuer à des projets de montage vidéo pour notre communication externe sur nos réseaux."
   },
   {
-    "Cadre": "Vie du club",
     "Departement": "Communication",
-    "Nombre": 2,
-    "Nom": "Responsable newsletter",
-    "Description": "Au sein du groupe communication, le responsable newsletter aura comme tâche de collecter les sujets à communiquer auprès des différents autres groupes (activités, bénévolat, partenariat, etc...), de concevoir la newsletter et de l'envoyer. Il faudra ensuite suivre et analyser des données analytiques de ces envois pour améliorer la diffusion."
+    "Nom": "#️⃣ Réseaux sociaux",
+    "Description": "Contribuer à poster du contenu sur nos réseaux sociaux."
   },
   {
-    "Cadre": "Vie du club",
-    "Departement": "Communication",
-    "Nombre": 1,
-    "Nom": "Spécialiste SEO",
-    "Description": "Faire un état des lieux du référencement actuel\nAméliorer le réferencement naturel\nMise en place de KPIs pour suivre les améliorations\nCollaborer avec le responsable ligne éditoriale\nProposer des changements techniques"
+    "Departement": "Opérationnel",
+    "Nom": "⛑️ Responsable organisation journée formation PSC",
+    "Description": "Organiser avec notre formateur partenaire des journées de formation secourisme, réserver le club, sélectionner les personnes, s'assurer des paiements. Pour en savoir plus : projets@clubalpinlyon.fr"
   },
   {
-    "Cadre": "Vie du club",
-    "Departement": "Communication",
-    "Nombre": 1,
-    "Nom": "Responsable ligne éditoriale",
-    "Description": "Mise en place d'une ligne éditoriale\nCommunication de cette ligne éditoriale\nMise en place de garde-fou sur le site pour respecter cette ligne éditoriale\nCollaboration avec le spécialiste SEO"
+    "Departement": "Opérationnel",
+    "Nom": "👨‍🏭 Bénévole gestion matériel",
+    "Description": "Aide à la gestion du matériel (prêt, vérification, rangement, etc.)."
   },
   {
-    "Cadre": "Vie du club",
-    "Departement": "Communication",
-    "Nombre": 2,
-    "Nom": "Graphiste web/print",
-    "Description": "- création des supports de communication pour le Club et les évenements du Club\n- réalisation de visuels pour nos comptes sur les réseaux sociaux"
+    "Departement": "Opérationnel",
+    "Nom": "🚌 Bénévole gestion minibus",
+    "Description": "Emmener le minibus en réparation deux fois par an à Villeurbanne, attribuer manuellement les priorités (15 mn par mois), répondre aux emails des adhérents ayant eu une anomalie avec le minibus."
   },
   {
-    "Cadre": "Vie du club",
-    "Departement": "Communication",
-    "Nombre": 2,
-    "Nom": "Responsable évènements",
-    "Description": "- organisation d'évènements\n- coordination des équipes\n- gestion du retroplanning et du budget"
+    "Departement": "Opérationnel",
+    "Nom": "☎️ Bénévole écoute signalement",
+    "Description": "Accueillir les victimes au club qui contactent la cellule de signalement, savoir écouter, relayer, se former."
   },
   {
-    "Cadre": "Vie du club",
-    "Departement": "Communication",
-    "Nombre": "",
-    "Nom": "Videastes / editeur video",
-    "Description": "Réalise des videos de communication pour le Club.\nAssiste les commissions qui veulent communiquer par la video. \nFilme les évènements organisés par le Club\nSupporte le diffusion en direct de certains évenements"
+    "Departement": "Opérationnel",
+    "Nom": "📱 Développeur appli Android / iOS",
+    "Description": "Un projet de développement d'application mobile pour le club est en réflexion, vous pouvez contribuer au développement."
   },
   {
-    "Cadre": "Vie du club",
-    "Departement": "Communication",
-    "Nombre": "",
-    "Nom": "Organisateur concours photo",
-    "Description": "Beaucoup de membres font des photos magnifiques durant leurs sorties, nous souhaitons mettre ca en avant et organiser un concours photo."
+    "Departement": "Financements",
+    "Nom": "🏛️ Subvention et projets",
+    "Description": "Contribuer au groupe de travail en place pour le dépôt des demandes de subventions, le suivi et proposer des projets innovants au sein du club. Négocier des réductions, tisser des partenariats, répondre à des appels à projets... un travail de l'ombre avec grosse valeur ajoutée pour le club."
   },
   {
-    "Cadre": "Vie du club",
-    "Departement": "Partenariat",
-    "Nombre": 2,
-    "Nom": "Responsables partenariats privées",
-    "Description": "Assurer une veille afin d'identifier tous les partenaires potentiels\nCibler, identifier et prospecter les partenaires potentiels\nAnimer un réseau de partenaires\nNégocier et signer des accords de partenariats\nDéfinir la stratégie, le contenu et les axes des programmes de partenariats\nAnalyser les résultats pour évaluer les performances et la rentabilité de chaque accord\n\u0001Recruter et animer une équipe de bénévoles dédiés au suivi des partenaires"
+    "Departement": "Financements",
+    "Nom": "📢 Événements Vie du club",
+    "Description": "Proposer des soirées à thèmes, conférences sur des sujets environnement ou technique sur nos activités."
   },
   {
-    "Cadre": "Vie du club",
-    "Departement": "Partenariat",
-    "Nombre": 5,
-    "Nom": "Bénévoles partenariats",
-    "Description": "Au sein de l'équipe chargée des partenariats, vous aiderez à trouver des nouveaux partenaires, privés ou publiques, afin d'en faire profiter le Club, les adhérents et les bénévoles."
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Partenariat",
-    "Nombre": 1,
-    "Nom": "Réferent subventions publiques",
-    "Description": "- veille sur les subventions et les aides publiques\n- interlocuteur unique pour le Club pour les subventions et les aides"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Partenariat",
-    "Nombre": 1,
-    "Nom": "Correspondant partenaires institutionnels",
-    "Description": "- Relation et échange avec les mairies et services des sports de Lyon et Villeurbanne"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Partenariat",
-    "Nombre": 1,
-    "Nom": "Correspondant partenaires milieu montagnard",
-    "Description": "- Relation et échange avec le milieu montagnard (ANENA, IFREMMONT, Mountain Wilderness, etc...)"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Formations",
-    "Nombre": 2,
-    "Nom": "Responsable organisation PSC1",
-    "Description": "La formation de secourisme PSC1 est obligatoire pour devenir encadrant. Le Club organise plusieurs séances de formation chaque année. Le processus est clairement documenté mais nécessite une personne responsable de l'organisation de ces séances et de gérer les participants."
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Formations",
-    "Nombre": 2,
-    "Nom": "Responsable UFCA",
-    "Description": "L'Unité de Formation Commune aux Activités est la formation de base pour tous les futurs encadrants. Nous cherchons des gens ayant déjà suivis cette formation, prêt à former a leur tour des futurs encadrants."
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Formation",
-    "Nombre": "",
-    "Nom": "Animateurs formation",
-    "Description": "Animation de formations diverses (secourisme, juridique, géologie, outils numériques, etc...)"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Local et matériel",
-    "Nombre": 2,
-    "Nom": "Architecte d'intérieur",
-    "Description": "Après ces 2 années de restrictions sociales, nous souhaitons faire revivre notre local et le rendre plus accueillant. Nous avons quelques idées pour le réagencer, mais si des adhérents plus compétents veulent nous aider, cela serait idéal. Recherchons idée notamment pour l’installation d’un bar."
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Local et matériel",
-    "Nombre": 2,
-    "Nom": "Responsable buvette au local",
-    "Description": "barman / barwoman pour les soirées au Club\n- définit les besoins de la buvette\n- communication sur les évenements buvette au local\n- en charge de trouver les bénévoles pour gérer la buvettes lors des évènements réguliers"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Local et matériel",
-    "Nombre": 1,
-    "Nom": "responsable EPI",
-    "Description": "vérification et entretien du matériel EPI (Équipement de protection individuelle)\n- nécessite une formation EPI (prise en charge par le Club) http://afforpah-formation.org/controle.et.gestion.des.epi-61200-2.php"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Local et matériel",
-    "Nombre": 1,
-    "Nom": "responsable des cordes",
-    "Description": "vérification et entretien des cordes"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Local et matériel",
-    "Nombre": 2,
-    "Nom": "co-responsable materiel",
-    "Description": "Aide à la gestion du matériel (prêt, vérification, rangement, etc...)"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Local et matériel",
-    "Nombre": 1,
-    "Nom": "Responsable mini bus",
-    "Description": "Le Club est maintenant en possession d'un super Mini-bus, pour réduire notre empreinte carbone et faciliter les sorties pour les jeunes. Nous cherchons quelqu'un qui pourrait nous aider à gérer le mini-bus: faire un checkup de temps en temps (propreté, révisions, etc...) et organiser la gestion avec les utilisateurs. Nous avons un outil de réservation en ligne."
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Local et matériel",
-    "Nombre": 2,
-    "Nom": "Responsables bibliotheque",
-    "Description": "- responsable du bon fonctionnement des emprunts\n- responsable de la bonne utilisation de la bibliotheque\n- mise en place d'outil pour faciliter et péreniser la bibliotheque"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Local et matériel",
-    "Nombre": 2,
-    "Nom": "Responsable local Villeurbanne",
-    "Description": "- responsable du bon état des locaux\n- responsable du partage de l'utilisation des locaux"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Bénévolat",
-    "Nombre": 2,
-    "Nom": "Responsable bénévoles",
-    "Description": "Transformer les adhérents en bénévole\nMotiver les bénévoles à continuer à nous aider\nTrouver comment valoriser le bénévolat\nMettre en place un canal de communication pour les bénévoles"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Bénévolat",
-    "Nombre": 1,
-    "Nom": "Référent écologie",
-    "Description": "dévelopement durable / mobilité douce / biodiversité / relations avec les associations\n- présence lors des évènements environnements durables\n- veille environnementale"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Bénévolat",
-    "Nombre": 1,
-    "Nom": "Référent inclusion (handicap / minorité / etc...)",
-    "Description": "Faire du Club un endroit où tout le monde se sent bienvenu et inclus\n- veille sur le thème de l'inclusion"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Bénévolat",
-    "Nombre": 2,
-    "Nom": "Responsable juridique (RGPD, légal, etc...)",
-    "Description": "- Veille juridique\n- conseiller pour le Club"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Bénévolat",
-    "Nombre": 2,
-    "Nom": "Trésorier adjoint",
-    "Description": "- garantir la transparence du fonctionnement financier de l'association\n- s'assurer de la bonne tenue de la comptabilité\n- veiller à la mise en place et à l'utilisation des outils de gestion nécessaires\n- suivre régulièrement le plan de trésorerie avec le comité de Direction"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Bénévolat",
-    "Nombre": "",
-    "Nom": "Délégué à la Protection des Données (DPO)",
-    "Description": "- responsable RGPD\n- Mise en place et animation de la veille juridique “protection des données"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Bénévolat",
-    "Nombre": 2,
-    "Nom": "Psychologue",
-    "Description": "- soutien psychologique après accident\n- veille\n- référent pour ce domaine\n- mise en relation avec des organismes spécialisés"
-  },
-  {
-    "Cadre": "Vie du club",
-    "Departement": "Bénévolat",
-    "Nombre": 2,
-    "Nom": "Réferent inter-club",
-    "Description": "- en charge de la communication avec les autres Clubs (échange de bonnes pratiques, mise en place de projet en commun, etc...)"
-  },
-  {
-    "Cadre": "Activité",
-    "Departement": "Encadrement",
-    "Nombre": 2,
-    "Nom": "Encadrants",
-    "Description": "Afin de répondre à la demande, nous cherchons des encadrants dans les domaines suivants: VTT, marche nordique, Via Ferrata, canyon et ski de piste"
-  },
-  {
-    "Cadre": "Activité",
-    "Departement": "Encadrement",
-    "Nombre": 2,
-    "Nom": "Création de nouvelles commissions",
-    "Description": "Le Club cherche des adhérents motivés pour créer ou relancer une commission. Course d’orientation, Ski de randonnée nordique, slackline, Organisateur de treks, sports aériens, spéléo, PEPS : public éloigné des pratiques sportives."
+    "Departement": "Financements",
+    "Nom": "🛒 Bénévole partenariat",
+    "Description": "Proposer de nouveaux partenaires (boutique, entreprises) en accord avec l'éthique du club, exemple : Vieux Campeur."
   }
 ]
