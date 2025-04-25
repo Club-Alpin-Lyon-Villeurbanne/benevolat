@@ -179,7 +179,8 @@ export default function Home() {
             <div className="row">
               <div className="col-lg-8 mx-auto text-center">
                 <p>
-                  Vous avez une envie et une compétence qui n'est pas dans cette liste ? Nous avons hâte de la découvrir !
+                  Vous avez une envie et une compétence qui n&apos;est pas dans
+                  cette liste ? Nous avons hâte de la découvrir !
                   <br />
                   <a
                     className="cta-link"
