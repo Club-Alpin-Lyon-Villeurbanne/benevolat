@@ -15,7 +15,7 @@ This project uses:
 - [Next.js 15](https://nextjs.org/blog/next-15)
 - [pnpm](https://pnpm.io/) for package management
 - [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) for linting and formatting
-- [Tailwind CSS](https://tailwindcss.com/) for styling
+- [CSS Modules](https://github.com/css-modules/css-modules) for styling
 - [Next.js Image Optimization](https://nextjs.org/docs/pages/api-reference/components/image) (`<Image />`)
 - Accessibility best practices
 
@@ -92,7 +92,7 @@ All images should use the Next.js `<Image />` component for automatic optimizati
 ## Accessibility & Code Style
 
 - All interactive elements are accessible (keyboard, aria-labels, etc.).
-- Styling is done with **Tailwind CSS** utility classes.
+- Styling is done with **CSS Modules** for component-scoped styles.
 - Code follows DRY principles and uses modern React/Next.js best practices.
 
 ## Testing
