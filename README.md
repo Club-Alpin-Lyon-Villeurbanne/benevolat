@@ -12,6 +12,7 @@ Vous trouverez ci-dessous la documentation pour utiliser ce repo avec Netlify et
 This is a [Next.js](https://nextjs.org/) **v15** project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and set up to be instantly deployed to [Netlify](https://netlify.com)!
 
 This project uses:
+
 - [Next.js 15](https://nextjs.org/blog/next-15)
 - [pnpm](https://pnpm.io/) for package management
 - [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) for linting and formatting
@@ -98,10 +99,12 @@ All images should use the Next.js `<Image />` component for automatic optimizati
 ## Testing
 
 This template includes:
+
 - [Cypress](https://www.cypress.io/) for end-to-end testing
 - [Renovate](https://www.mend.io/free-developer-tools/renovate/) for dependency updates
 
 To run tests:
+
 ```bash
 pnpm test
 ```

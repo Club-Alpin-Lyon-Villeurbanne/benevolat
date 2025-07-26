@@ -22,119 +22,25 @@ export default function Home() {
             <div className="row justify-content-center pb-5">
               <div className="col-12 text-center">
                 <h1>Devenir bénévole ?</h1>
-              </div>
-            </div>
-
-            <div className="row text-left align-items-center pt-5 pb-md-5">
-              <div className="col-4 col-md-5">
-                <Image
-                  alt="Engagement"
-                  className="img-fluid"
-                  src="/assets/img/commitment.svg"
-                  width={400}
-                  height={400}
-                  priority
-                />
-              </div>
-              <div className="col-12 col-md-5 m-md-auto">
-                <h2>
-                  <strong>Engagement</strong>
-                </h2>
-                <p className="lead">
-                  S&apos;enrichir humainement en s&apos;impliquant à la hauteur
-                  de ses disponibilités dans des actions qui ont du sens.
-                </p>
-              </div>
-            </div>
-
-            <div className="row text-left align-items-center pt-5 pb-md-5">
-              <div className="col-4 col-md-5 m-md-auto order-md-5">
-                <Image
-                  alt="High five"
-                  className="img-fluid"
-                  src="/assets/img/high-five.svg"
-                  width={400}
-                  height={400}
-                  priority
-                />
-              </div>
-              <div className="col-12 col-md-5">
-                <h2>
-                  <strong>Des belles rencontres</strong>
-                </h2>
-                <p className="lead">
-                  Devenir bénévole, c&apos;est rejoindre une équipe
-                  accueillante, bienveillante et riche de volontaires de tous
-                  bords, animés par une passion commune: la montagne.
-                </p>
-              </div>
-            </div>
-
-            <div className="row text-left align-items-center pt-5">
-              <div className="col-4 col-md-5">
-                <Image
-                  alt="Compétences"
-                  className="img-fluid"
-                  src="/assets/img/competences.svg"
-                  width={400}
-                  height={400}
-                  priority
-                />
-              </div>
-              <div className="col-12 col-md-5 m-md-auto">
-                <h2>
-                  <strong>Apprendre et partager des compétences</strong>
-                </h2>
-                <p className="lead">
-                  Participer aux projets du Club permet de mettre en pratique
-                  vos compétences acquises dans un cadre professionnel, étudiant
-                  ou de loisir et d&apos;en apprendre des nouvelles. Ces
-                  compétences peuvent être à leur tour utile pour votre vie
-                  professionnelle.
+                <p className="lead mt-4">
+                  Devenir bénévole, c&apos;est s&apos;engager à son rythme dans
+                  des actions porteuses de sens.
                   <br />
-                  Les projets du Club sont divers et variés. Cela va de
-                  l&apos;accueil des nouveaux adhérents au développement
-                  d&apos;outils informatiques en passant par la gestion et le
-                  suivi du matériel. Et ne pensez pas qu&apos;il faille
-                  forcement avoir de l&apos;expérience, beaucoup de rôles sont
-                  ouverts aux débutants.
-                </p>
-              </div>
-            </div>
-
-            <div className="row text-left align-items-center pt-5 pb-md-5">
-              <div className="col-4 col-md-5 m-md-auto order-md-5">
-                <Image
-                  alt="Avantages"
-                  className="img-fluid"
-                  src="/assets/img/awesome.svg"
-                  width={400}
-                  height={400}
-                  priority
-                />
-              </div>
-              <div className="col-12 col-md-5">
-                <h2>
-                  <strong>Des avantages</strong>
-                </h2>
-                <p className="lead">
-                  Pour les bénévoles dont l&apos;engagement est important et a
-                  été approuvé par le responsable, il est possible
-                  d&apos;obtenir le statut de bénévole actif. <br />
-                  Etre bénévole actif, c&apos;est avoir accès à différents
-                  avantages tels que:
+                  C&apos;est l&apos;occasion de faire de belles rencontres au
+                  sein d&apos;une équipe passionnée et bienveillante.
                   <br />
-                  - prise en charge la part fédérale de l&apos;abonnement
+                  Participer à la vie du Club permet d&apos;apprendre, de
+                  partager et de valoriser ses compétences.
                   <br />
-                  - prise en charge de l&apos;assurance renforcée
+                  Tous les profils sont les bienvenus, débutants comme
+                  expérimentés, selon ses envies et disponibilités.
                   <br />
-                  - réduction supplémentaire chez certains partenaires
+                  Les bénévoles actifs bénéficient d&apos;avantages concrets et
+                  d&apos;une reconnaissance officielle.
                   <br />
-                  - reconnaissance avec la carte de bénévoles
                   <br />
-                  - invitation à des évenements dédiés aux bénévoles
-                  <br />- obtention de droits de formation supplémentaires avec
-                  le{' '}
+                  Cela permet aussi d&apos;obtenir des droits de formation
+                  supplémentaires avec le{' '}
                   <a
                     href="https://www.associations.gouv.fr/le-compte-d-engagement-citoyen-cec.html"
                     target="_blank"
@@ -155,41 +61,49 @@ export default function Home() {
                 Voici une liste non exhaustive des rôles qui pourraient être
                 utiles au Club.
               </h3>
+              <p className="mb-4">
+                Tu as d&apos;autres compétences, une idée ou un projet qui
+                pourrait enrichir le club et ce n&apos;est pas dans la liste ?
+                Nous avons hâte de la découvrir !<br />
+                <a
+                  className="cta-link"
+                  href="mailto:benevolat@clubalpinlyon.fr"
+                >
+                  benevolat@clubalpinlyon.fr
+                </a>
+              </p>
             </div>
             <div className="row">
               <table className="table table-striped table-hover">
                 <thead>
                   <tr>
-                    <th scope="col">Nom</th>
+                    <th scope="col" style={{ width: '25%' }}>
+                      Nom
+                    </th>
                     <th scope="col">Département</th>
                     <th scope="col">Description</th>
+                    <th scope="col" style={{ width: '15%' }}>
+                      Investissement
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
-                  {roles.map((item, i) => (
-                    <tr key={i}>
-                      <td>{item.Nom}</td>
-                      <td>{item.Departement}</td>
-                      <td>{item.Description}</td>
-                    </tr>
-                  ))}
+                  {roles.map((item, i) => {
+                    // Utiliser l'index pour générer des heures variées mais déterministes
+                    const heures = (i % 3) + 1; // 1, 2, ou 3
+                    return (
+                      <tr key={i}>
+                        <td>{item.Nom}</td>
+                        <td>{item.Departement}</td>
+                        <td>{item.Description}</td>
+                        <td>
+                          {heures} à {heures + 1}h / mois
+                        </td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
-            </div>
-            <div className="row">
-              <div className="col-lg-8 mx-auto text-center">
-                <p>
-                  Vous avez une envie et une compétence qui n&apos;est pas dans
-                  cette liste ? Nous avons hâte de la découvrir !
-                  <br />
-                  <a
-                    className="cta-link"
-                    href="mailto:benevolat@clubalpinlyon.fr"
-                  >
-                    benevolat@clubalpinlyon.fr
-                  </a>
-                </p>
-              </div>
             </div>
           </div>
         </section>

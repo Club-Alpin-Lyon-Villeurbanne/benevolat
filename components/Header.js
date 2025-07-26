@@ -8,9 +8,6 @@ export default function Header({ title }) {
         <div className="masthead-heading text-uppercase">
           C&apos;est TON Club !
         </div>
-        <a className="btn btn-primary btn-xl text-uppercase" href="#benevolat">
-          En savoir plus
-        </a>
       </div>
     </header>
   );
