@@ -28,10 +28,18 @@ export default function Footer() {
             </div>
             <div className="col-lg-4 text-lg-end">
               <a
-                className="link-light text-decoration-none"
+                className="link-light text-decoration-none me-3"
                 href="https://www.clubalpinlyon.fr/pages/mentions-legales.html"
               >
                 Mentions légales
+              </a>
+              <a
+                className="link-light text-decoration-none"
+                href="https://github.com/Club-Alpin-Lyon-Villeurbanne/benevolat"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github"></i> Code source
               </a>
             </div>
           </div>
