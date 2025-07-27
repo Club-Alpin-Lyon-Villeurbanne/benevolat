@@ -24,7 +24,8 @@ pnpm run lint:fix
 pnpm run format
 
 # Run Cypress tests
-# Note: Tests expect baseUrl http://localhost:8888/
+# IMPORTANT: Start dev server first (pnpm dev) on port 3000
+# Note: cypress.config.js uses baseUrl http://localhost:3000/
 pnpm test
 ```
 
@@ -37,7 +38,7 @@ This is a Next.js v15 application for the Club Alpin Lyon-Villeurbanne volunteer
 - **Styling**: Uses CSS modules and global CSS (no Tailwind despite README mention)
 - **Image Optimization**: Uses Next.js Image component for automatic optimization
 - **Static Data**: Volunteer roles are stored in pages/roles.json
-- **Testing**: Cypress for E2E tests with baseUrl set to http://localhost:8888/
+- **Testing**: Cypress for E2E tests with baseUrl set to http://localhost:3000/
 - **Deployment**: Configured for Netlify deployment via personal fork
 
 ## Deployment Workflow
@@ -71,3 +72,5 @@ To avoid Netlify's paid features for organization private repos, deployment uses
 - Lint and format code before committing (pre-commit hooks via Husky)
 - Component imports use path aliases (e.g., `@components/Header`)
 - When deploying, remember to push to both origin and deploy remotes
+- Tests require the dev server to be running on port 3000 before execution
+- Cypress will auto-install on first run if not already installed

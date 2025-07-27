@@ -73,7 +73,7 @@ pnpm lint:fix         # Corriger automatiquement
 pnpm format           # Formater avec Prettier
 
 # Tests
-pnpm test             # Lancer Cypress
+pnpm test             # Lancer Cypress (serveur dev requis sur port 3000)
 pnpm test:open        # Ouvrir Cypress GUI
 ```
 
@@ -170,6 +170,22 @@ Pour éviter les limitations de Netlify sur les repos privés d'organisation (fe
 pnpm build
 # Les fichiers sont dans .next/
 ```
+
+## 🧪 Tests
+
+Les tests utilisent Cypress pour les tests E2E. Avant de lancer les tests :
+
+1. **Démarrer le serveur de développement** (port 3000) :
+   ```bash
+   pnpm dev
+   ```
+
+2. **Dans un autre terminal**, lancer les tests :
+   ```bash
+   pnpm test
+   ```
+
+**Note** : Si Cypress n'est pas installé, il s'installera automatiquement au premier lancement.
 
 ## 🐛 Dépannage
 
