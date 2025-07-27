@@ -1,118 +1,224 @@
-# Codebase pour le site du Bénévolat du Club Alpin de Lyon-Villeurbanne
+# Site du Bénévolat - Club Alpin Lyon-Villeurbanne
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status)](https://app.netlify.com/sites/fluffy-dolphin-aec0fe/overview)
 
-Ce repo contient le code source du site [benevolat.clubalpinlyon.fr](https://benevolat.clubalpinlyon.fr/).
-Il a été conçu avec Next.js **v15** et est déployé sur Netlify.
+Site web pour promouvoir le bénévolat au Club Alpin Français de Lyon-Villeurbanne.
 
-Vous trouverez ci-dessous la documentation pour utiliser ce repo avec Netlify et les outils modernes de développement.
+🌐 **Production** : [benevolat.clubalpinlyon.fr](https://benevolat.clubalpinlyon.fr/)
 
----
+## 🚀 Démarrage rapide
 
-This is a [Next.js](https://nextjs.org/) **v15** project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and set up to be instantly deployed to [Netlify](https://netlify.com)!
+### Prérequis
 
-This project uses:
+- Node.js 18+ 
+- pnpm 10.9.0 (installé automatiquement via corepack)
 
-- [Next.js 15](https://nextjs.org/blog/next-15)
-- [pnpm](https://pnpm.io/) for package management
-- [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) for linting and formatting
-- [CSS Modules](https://github.com/css-modules/css-modules) for styling
-- [Next.js Image Optimization](https://nextjs.org/docs/pages/api-reference/components/image) (`<Image />`)
-- Accessibility best practices
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex-cs)
-
-## Table of Contents
-
-- [Codebase pour le site du Bénévolat du Club Alpin de Lyon-Villeurbanne](#codebase-pour-le-site-du-bénévolat-du-club-alpin-de-lyon-villeurbanne)
-  - [Table of Contents](#table-of-contents)
-  - [Getting Started](#getting-started)
-    - [Installation](#installation)
-  - [Linting \& Formatting](#linting--formatting)
-  - [Image Optimization](#image-optimization)
-  - [Accessibility \& Code Style](#accessibility--code-style)
-  - [Testing](#testing)
-
-## Getting Started
-
-First, run the development server:
+### Installation et lancement
 
 ```bash
-pnpm dev
-```
+# Cloner le repository
+git clone https://github.com/Club-Alpin-Lyon-Villeurbanne/benevolat.git
+cd benevolat
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-### Installation
-
-Clone this repo and install dependencies:
-
-```bash
-git clone https://github.com/netlify-templates/next-netlify-starter.git
-cd next-netlify-starter
+# Installer les dépendances
 pnpm install
-```
 
-To start the dev server:
-
-```bash
+# Lancer le serveur de développement
 pnpm dev
 ```
 
-To build for production:
+Le site sera accessible sur [http://localhost:3000](http://localhost:3000)
+
+## 📁 Structure du projet
+
+```
+benevolat/
+├── components/          # Composants React réutilisables
+│   ├── Header.js       # En-tête avec image de fond
+│   ├── Navbar.js       # Barre de navigation
+│   └── Footer.js       # Pied de page avec liens sociaux
+├── pages/              # Pages Next.js (routing automatique)
+│   ├── index.js        # Page principale
+│   └── roles.json      # Données des rôles bénévoles
+├── public/             # Fichiers statiques
+│   └── assets/         # Images et icônes
+├── styles/             # Feuilles de style
+│   └── globals.css     # Styles globaux (Bootstrap custom)
+└── CLAUDE.md           # Guide pour l'assistant IA Claude
+```
+
+## 🛠 Stack technique
+
+- **Framework** : Next.js 15 (Pages Router)
+- **UI** : React 18 + CSS Modules
+- **Styles** : Bootstrap 5 (customisé) + CSS Modules
+- **Déploiement** : Netlify
+- **Gestion de paquets** : pnpm
+- **Linting** : ESLint + Prettier
+- **Tests E2E** : Cypress
+
+## 📝 Commandes principales
+
+```bash
+# Développement
+pnpm dev              # Serveur de dev sur :3000
+
+# Build & Production
+pnpm build            # Build de production
+pnpm start            # Serveur de production
+
+# Qualité du code
+pnpm lint             # Vérifier le code
+pnpm lint:fix         # Corriger automatiquement
+pnpm format           # Formater avec Prettier
+
+# Tests
+pnpm test             # Lancer Cypress
+pnpm test:open        # Ouvrir Cypress GUI
+```
+
+## 🔧 Configuration
+
+### Variables d'environnement
+
+Aucune variable d'environnement n'est requise pour le développement.
+
+### Netlify
+
+Le déploiement est automatique à chaque push sur `main`. Configuration dans `netlify.toml`.
+
+### Path aliases
+
+Les alias de chemins sont configurés dans `jsconfig.json` :
+- `@components/*` → `components/*`
+- `@styles/*` → `styles/*`
+
+## 📋 Workflow de développement
+
+### 1. Modifier les rôles bénévoles
+
+Éditer le fichier `pages/roles.json` :
+
+```json
+{
+  "Nom": "Nom du rôle",
+  "Departement": "Nom du département",
+  "Description": "Description du rôle"
+}
+```
+
+### 2. Modifier le contenu
+
+- **Texte principal** : `pages/index.js`
+- **Navigation** : `components/Navbar.js`
+- **Footer** : `components/Footer.js`
+
+### 3. Ajouter des images
+
+1. Placer les images dans `public/assets/img/`
+2. Utiliser le composant Next.js Image :
+
+```jsx
+import Image from 'next/image';
+
+<Image
+  src="/assets/img/mon-image.jpg"
+  alt="Description"
+  width={400}
+  height={300}
+/>
+```
+
+### 4. Styles
+
+- **Global** : Modifier `styles/globals.css`
+- **Composant** : Créer `Component.module.css`
+
+## 🚢 Déploiement
+
+### Configuration actuelle
+
+Pour éviter les limitations de Netlify sur les repos privés d'organisation (feature payante), le déploiement utilise un fork personnel :
+
+- **Repo principal** : `github.com/Club-Alpin-Lyon-Villeurbanne/benevolat`
+- **Repo de déploiement** : `github.com/nicolasRitouet/benevolat` (privé)
+- **Netlify** : connecté au repo personnel pour le déploiement automatique
+
+### Workflow de déploiement
+
+1. **Développement normal** sur le repo principal :
+   ```bash
+   git add .
+   git commit -m "mes changements"
+   git push origin main
+   ```
+
+2. **Pour déployer en production**, pusher vers le repo personnel :
+   ```bash
+   # Ajouter le remote s'il n'existe pas déjà
+   git remote add deploy https://github.com/nicolasRitouet/benevolat.git
+   
+   # Pusher les changements
+   git push deploy main
+   ```
+
+3. **Netlify** détecte automatiquement le push et déploie le site
+
+### Déploiement manuel local
 
 ```bash
 pnpm build
+# Les fichiers sont dans .next/
 ```
 
-To preview the production build:
+## 🐛 Dépannage
+
+### Port 3000 déjà utilisé
 
 ```bash
-pnpm start
+# Le serveur utilisera automatiquement le port 3001
 ```
 
-## Linting & Formatting
+### Erreur d'hydratation React
 
-This project uses **ESLint** and **Prettier** for code quality and formatting.
+Vérifier que le rendu côté serveur et client est identique. Éviter :
+- `Math.random()` dans le rendu
+- Dates dynamiques
+- Conditions basées sur `window`
 
-- To check for lint errors:
-  ```bash
-  pnpm run lint
-  ```
-- To automatically fix lint and formatting issues:
-  ```bash
-  pnpm run lint --fix
-  ```
+### Build échoue sur Netlify
 
-## Image Optimization
+Vérifier :
+1. Que toutes les dépendances sont dans `package.json`
+2. Que le build local fonctionne : `pnpm build`
+3. Les logs de build sur Netlify
 
-All images should use the Next.js `<Image />` component for automatic optimization and best performance. See [Next.js Image docs](https://nextjs.org/docs/pages/api-reference/components/image).
+## 🤝 Contribution
 
-## Accessibility & Code Style
+1. Créer une branche depuis `main`
+2. Faire les modifications
+3. Vérifier : `pnpm lint && pnpm build`
+4. Créer une Pull Request
 
-- All interactive elements are accessible (keyboard, aria-labels, etc.).
-- Styling is done with **CSS Modules** for component-scoped styles.
-- Code follows DRY principles and uses modern React/Next.js best practices.
+### Standards de code
 
-## Testing
+- ESLint + Prettier sont configurés
+- Les hooks pre-commit formatent automatiquement
+- Suivre les conventions React/Next.js existantes
 
-This template includes:
+## 📚 Ressources utiles
 
-- [Cypress](https://www.cypress.io/) for end-to-end testing
-- [Renovate](https://www.mend.io/free-developer-tools/renovate/) for dependency updates
+- [Documentation Next.js](https://nextjs.org/docs)
+- [Documentation React](https://react.dev)
+- [Bootstrap 5](https://getbootstrap.com/docs/5.0)
+- [Netlify Docs](https://docs.netlify.com)
 
-To run tests:
+## 📞 Support
 
-```bash
-pnpm test
-```
+Pour toute question technique :
+- Ouvrir une issue sur GitHub
+- Contact : benevolat@clubalpinlyon.fr
 
 ---
 
-For deployment, this project uses Netlify. See `netlify.toml` for configuration.
-
----
-
-Feel free to contribute or open issues!
+Développé avec ❤️ pour le Club Alpin Lyon-Villeurbanne
